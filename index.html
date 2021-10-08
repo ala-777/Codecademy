@@ -9,78 +9,128 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js" integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
 </head>
 
 <body>
     <div class="navbar-fixed">
-        <nav class="nav-wraper red">
-            <div class="container">
+
+        <nav class="z-depth-0">
+            <div class="nav-wrapper ">
+
                 <div class="row">
-                    <div class="col s4 m7 right">
-                        <ul class="right ">
-                            <li><a href="#">Sass</a></li>
-                            <li><a href="#">Components</a></li>
-                            <li><a href="#">JavaScript</a></li>
+                    <div class="col s1 push-s2  m1 ">
+                        <a href="#" class="black-text brand-logo "> Codecademy</a>
+                    </div>
+                    <div class="col s1 pull-s1 m1 right">
+                        <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                            <i class="black-text material-icons">menu</i>
+                        </a>
+                    </div>
+                    <div class="col  m7 push-m1 left">
+                        <ul class=" left hide-on-med-and-down">
+                            <li><a class=" black-text dropdown-trigger" href="#!" data-target="dropdown1">Home<i class="material-icons right">arrow_drop_down</i></a></li>
+
+                            <li><a class="black-text dropdown-trigger" href="#!" data-target="dropdown1">Components<i class="material-icons right">arrow_drop_down</i></a></li>
+
+                            <li><a class="black-text dropdown-trigger" href="#!" data-target="dropdown1">JavaScript<i class="material-icons right">arrow_drop_down</i></a></li>
+
+
+                            <li><a class=" black-text dropdown-trigger" href="#!" data-target="dropdown1">Contact<i class="material-icons right">arrow_drop_down</i></a></li>
+
+
                         </ul>
                     </div>
-
-                    <div class="col s6 m4 left">
+                    <div class="col  m1  push-m2 hide-on-med-and-down">
                         <form>
                             <div class="input-field">
                                 <input type="search">
                                 <label class="label-icon" for="search">
-                                <i class="material-icons">search</i></label>
+                                <i class="black-text material-icons">search</i></label>
                             </div>
                         </form>
                     </div>
+                    <div class="col  m1  push-m2  hide-on-med-and-down">
+                        <a class="blue-text " href="#login">Log in</a>
+                    </div>
                 </div>
             </div>
+        </nav>
+
     </div>
-    </nav>
+    <ul class="sidenav" id="mobile-nav">
+        <li>
+            <a href="#home">Home </a>
+        </li>
+        <li>
+            <a href="#">Components</a>
+        </li>
+        <li>
+            <a href="#">JavaScript</a>
+        </li>
+        <li>
+            <a href="#">Contact</a>
+        </li>
+    </ul>
     <section class="sign-in ">
         <div class="container  ">
             <div class="row">
-                <div class="col   m1 push-m3 xl1 ">
+                <div class="col s7 m1 pull-m2 xl1 pull-xl1 ">
                     <img src="https://www.codecademy.com/webpack/9b583bc419868d4c95b136cab8b50a69.png">
                 </div>
-                <div class="col xl6 right">
-                    <h2>Join the millions learning to code with Codecademy for free </h2>
+                <div class="col s9 m6 push-m2 xl6 push-xl1 right">
+                    <h2>Build your future in tech </h2>
                     <dive>
                         <form>
                             <div class="input-field">
-                                <input id="Email" type="Email" required>
-                                <label class="label-icon " for="Email"><i class="material-icons">Email</i></label>
+                                <p>Email</p>
+                                <input id="email" type="text" required>
+
                             </div>
                             <div class="input-field">
-                                <input id="password" type="password" required>
-                                <label class="label-icon" for="password"><i class="material-icons">password</i></label>
+                                <p>Password</p>
+                                <input id="password" type="text" required>
+
                             </div>
                         </form>
-                        <div class="btn blue">Sign Up </div>
+                        <div class="btn blue">Try for free </div>
                     </dive>
                 </div>
             </div>
         </div>
     </section>
-    <div class="col section2">
-        <h3>Explore our catalog</h3>
-        <div class="row">
-            <div class="col s3 m2 cart">
-                <p>Explore All<br><span>JavaScript </span></p>
-            </div>
-            <div class="col S3 m2 cart">
-                <p>Explore All <br> <span>Python</span></p>
-            </div>
-            <div class="col S3 m2 cart">
-                <p>Explore All Web <br><span>Development</span></p>
-            </div>
-            <div class="col S3 m2 cart">
-                <p> Explore All <br><span>Date Science</span></p>
+    <div class="catalog">
+        <div class=" col ">
+            <h3>Explore our catalog</h3>
+            <div class="row">
+                <div class="parent1 col s9 m12 l5 xl2">
+                    <div class=" cart ">
+                        <p>Explore All<br><span>JavaScript </span></p>
+                    </div>
+                </div>
+                <div class="parent2 col s9 m12 l5 xl2">
+                    <div class=" cart">
+                        <p>Explore All <br> <span>Python</span></p>
+                    </div>
+                </div>
+                <div class="parent3 col s9  m12 l5 xl2 ">
+                    <div class=" cart">
+                        <p>Explore All Web <br><span>Development</span></p>
+                    </div>
+                </div>
+                <div class="parent4 col s9 m12 l5 xl2">
+                    <div class=" cart">
+                        <p> Explore All <br><span>Date Science</span></p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
+    </div>
     <section class="yellow">
         <div class=" container ">
             <div class="row ">
@@ -191,6 +241,14 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js "></script>
+
+    <script>
+        // Sidenav
+        const sideNav = document.querySelector('.sidenav');
+        M.Sidenav.init(sideNav, {});
+    </script>
+
 </body>
 
 </html>
