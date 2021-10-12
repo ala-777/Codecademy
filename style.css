@@ -8,41 +8,37 @@ h3 {
     font-weight: 500;
 }
 
-a{
-
+a {
     color: black !important;
 }
-.nav-wrapper{
-       background: #FFF0E5;
- 
+
+.nav-wrapper {
+    background: #FFF0E5;
 }
 
-.nav-wrapper:hover{
-       background: white;
-       border-bottom:1px solid black; 
- 
+.nav-wrapper:hover {
+    background: white;
+    border-bottom: 1px solid black;
 }
 
-
-
-
-.sign-in img{
- width: 500px;
- height: 500px;
- padding-top: 100px;
+.sign-in img {
+    width: 500px;
+    height: 500px;
+    padding-top: 100px;
 }
-
 
 .input-field {
     padding-top: 10px;
 }
 
-.sign-in{
+.sign-in {
     padding-top: 80px;
 }
-#email,#password{
-   background-color: white !important;
-   border:1px solid black !important;
+
+#email,
+#password {
+    background-color: white !important;
+    border: 1px solid black !important;
 }
 
 .cart {
@@ -50,144 +46,144 @@ a{
     width: 240px;
 }
 
-.cart p{
+.cart p {
     padding-left: 30px;
 }
 
-.catalog{
+.catalog {
     padding-left: 100px;
     padding-top: 60px;
 }
-.parent1{
-  background-image: url(https://static-assets.codecademy.com/assets/components/cards/explore-category-card/language/javascript.svg);
+
+.parent1 {
+    background-image: url(https://static-assets.codecademy.com/assets/components/cards/explore-category-card/language/javascript.svg);
     background-position: left;
-
 }
-.parent2{
-  background-image: url(https://static-assets.codecademy.com/assets/components/cards/explore-category-card/language/python.svg);
-);
+
+.parent2 {
+    background-image: url(https://static-assets.codecademy.com/assets/components/cards/explore-category-card/language/python.svg);
     background-position: left;
-
 }
-.parent3{
-  background-image: url(https://static-assets.codecademy.com/assets/components/cards/explore-category-card/subject/web-development.svg);
+
+.parent3 {
+    background-image: url(https://static-assets.codecademy.com/assets/components/cards/explore-category-card/subject/web-development.svg);
     background-position: right;
-
 }
-.parent4{
-  background-image:url(https://static-assets.codecademy.com/assets/components/cards/explore-category-card/subject/data-science.svg);
+
+.parent4 {
+    background-image: url(https://static-assets.codecademy.com/assets/components/cards/explore-category-card/subject/data-science.svg);
     background-position: right;
-
 }
 
-.parent1,.parent2,.parent3,.parent4 {
+.parent1,
+.parent2,
+.parent3,
+.parent4 {
     display: flex;
     height: 11.25rem;
-   justify-content: center;
+    justify-content: center;
     align-items: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     margin: 30px;
-    border:1px solid black;
+    border: 1px solid black;
 }
 
-
-.yellow,.indigo{
+.yellow,
+.indigo {
     padding: 3px;
 }
 
-.yellow img ,.indigo img{
+.yellow img,
+.indigo img {
     width: 400px;
     padding-top: 12px;
 }
 
+.people {
+    padding-top: 120px;
+}
 
 span {
     font-size: 25px;
     font-weight: 550;
 }
 
-
-.title{
+.title {
     font-size: 18px;
-
 }
 
-
-.divider1{
+.divider1 {
     height: 550px;
-    border-right:1.2px solid;
+    border-right: 1.2px solid;
 }
 
-.divider2{
+.divider2 {
     height: 0.1%;
     width: 100%;
     background: black;
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 600px) {
-.divider1{
-     height: 0.1%;
-    width: 100%;
-    background: black;
+@media (min-width: 1024px) {
+    .people-imgs {
+        width: 260px;
+    }
 }
 
-.parent1,.parent2,.parent3,.parent4 {
-    height: 12.25rem;
-/*    width: 580px;
-*/}
-.cart {
-    background: white;
-    width: 260px;
-    height: 100px;
-}
-
-
-.sign-in img{
-    width: 350px;
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+    .divider1 {
+        height: 0.1%;
+        width: 100%;
+        background: black;
+    }
+    .parent1,
+    .parent2,
+    .parent3,
+    .parent4 {
+        height: 12.25rem;
+    }
+    .cart {
+        background: white;
+        width: 260px;
+        height: 100px;
+    }
+    .sign-in img {
+        width: 350px;
         height: 350px;
-
+    }
 }
-
-}
-
 
 @media (max-width: 600px) {
-body{
-min-width: 600px;
+    body {
+        min-width: 600px;
     }
-.nav-wrapper{
-       background: white;
-       border-bottom:1px solid black; 
- 
-}
-.sign-in img{
- width: 330px;
- height: 330px;
- padding-top: 100px;
-}
-
-.divider1{
-     height: 0.1%;
-    width: 100%;
-    background: black;
-}
-.parent1,.parent2,.parent3,.parent4 {
-    height: 13.25rem;
-/*    width: 430px;
-*/}
-.cart {
-    background: white;
-    width: 260px;
-    height: 100px;
-}
-
-
-.yellow img ,.indigo img{
-    width: 200px;
-    padding-top: 50px;
-}
-
-
+    .nav-wrapper {
+        background: white;
+        border-bottom: 1px solid black;
+    }
+    .divider1 {
+        height: 0.1%;
+        width: 100%;
+        background: black;
+    }
+    .parent1,
+    .parent2,
+    .parent3,
+    .parent4 {
+        height: 13.25rem;
+    }
+    .cart {
+        background: white;
+        width: 260px;
+        height: 100px;
+    }
+    .yellow img,
+    .indigo img {
+        width: 200px;
+        padding-top: 50%;
+    }
+    .people-imgs {
+        max-width: 400px;
+    }
 }
