@@ -114,6 +114,7 @@ a {
 .people-imgs {
     border: 1px black solid;
     object-fit: fill;
+    height: 250px;
 }
 
 .titel {
@@ -140,12 +141,6 @@ span {
     height: 0.1%;
     width: 100%;
     background: black;
-}
-
-@media (min-width: 1024px) {
-    .people-imgs {
-        height: 450px;
-    }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 600px) {
